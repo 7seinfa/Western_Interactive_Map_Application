@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
  */
-
+package com.mycompany.western_interactive_map_application;
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -22,7 +22,7 @@ public class LoginSystem {
     
     public boolean CreateUser(String Username,String Password,boolean isAdmin){
 
-        String filePath = "Users.json";
+        String filePath = "JSON_OBJECTS/Users.json";
         //Append JSON file
         boolean userfound=ValidateUser(Username,Password)[0];
         
@@ -32,7 +32,7 @@ public class LoginSystem {
         try {
             // Read the contents of the JSON file into a JSONArray object
             JSONParser jsonParser = new JSONParser();
-            JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader("Users.json"));
+            JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader("JSON_OBJECTS/Users.json"));
 
             // Append the new JSONObject to the JSONArray
             JSONObject UserInfo = new JSONObject();
@@ -63,7 +63,7 @@ public class LoginSystem {
         //JSON parser object to parse read file
         JSONParser jsonParser = new JSONParser();
          boolean userfound[]={false,false};
-        try (FileReader reader = new FileReader("Users.json"))
+        try (FileReader reader = new FileReader("JSON_OBJECTS/Users.json"))
         {
             //Read JSON file
             Object obj = jsonParser.parse(reader);

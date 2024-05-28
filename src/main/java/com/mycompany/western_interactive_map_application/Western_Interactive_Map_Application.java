@@ -1,5 +1,16 @@
-public class Main
-{
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.western_interactive_map_application;
+
+/**
+ *
+ * @author Aun Mirza
+ */
+public class Western_Interactive_Map_Application {
+
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -28,7 +39,6 @@ public class Main
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new LoginPage().setVisible(true);
-                //new Map("University Community Centre", "ucc", "admin", true).setVisible(true);
             }
         });
     }

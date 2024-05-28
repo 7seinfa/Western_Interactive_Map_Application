@@ -1,4 +1,4 @@
-
+package com.mycompany.western_interactive_map_application;
 import java.awt.Point;
 import org.json.simple.JSONObject;
 

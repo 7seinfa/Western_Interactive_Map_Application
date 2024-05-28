@@ -1,3 +1,5 @@
+package com.mycompany.western_interactive_map_application;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;

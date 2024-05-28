@@ -1,7 +1,46 @@
-An application which loads several buildings at Western University and maps them, by floor, with different locations such as class rooms, washrooms, and restaurants.
+------------------------------------------------------------------------------
+Western_Interactive_Map_Application v1.0
+------------------------------------------------------------------------------
+Introduction
 
-There are several user accounts:
-- In the admin account, the admin is able to add or remove points of interest (POIs) to a certain position in a floor in a building. These POIs show for all users.
-- In a user's account, they can create POIs themselves, as well as remove those created by themselves. These POIs only show for the user signed in, and not for other users.
+With a campus as large as UWO, navigating can be very overwhelming. Buildings are large, have many floors, and sometimes, quite frankly, the layouts make no sense at all. Getting from building to building is easy enough, which is why we are in dire need of some sort of software to help navigation indoors too. Using the maps provided on the UWO website as PDFs, we can develop a software displaying these maps, along with additional information which the maps miss out on, altogether in one place accessible from the software created.
+------------------------------------------------------------------------------
+What does this program do?
 
-The app is created in Java and Swing, and was a class project with several other students.
+This Java application provides an interactive map for Western University. It allows users to navigate through the campus and buildings, display different points of interest depending on how the user would like to filter them, search through points of interest, list what is available in each building, as well as add custom points of interest as the user pleases.
+------------------------------------------------------------------------------
+Getting Started
+
+To run the application, make sure you have Java installed on your computer. Then simply run the executable.
+------------------------------------------------------------------------------
+Third party libraries/dependencies
+
+These libraries/dependencies were used in our program:
+
+JDK19
+AbsoluteLayout-RELEASE170.jar
+json-simple-1.1.1.jar
+hamcrest-core-1.1.jar
+junit-4.10.jar
+
+All of these can be freely downloaded online. To install, following their respective installing instructions.
+------------------------------------------------------------------------------
+Built-in account information
+
+To use the program as administrator,
+Account 1:
+Username: Sunny
+Password: abcd
+Account 2:
+Username: admin
+Password: admin
+
+To use the program as guest,
+Account 1:
+Username: guest
+Password: guest
+
+Differences:
+In admin mode, you will be able to edit default POIs
+In guest mode, you are only able to delete/add custom POIs
+
