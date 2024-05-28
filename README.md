@@ -1,3 +1,6 @@
+This project was built as a project for CS2212 at Western University, with 3 other students. It uses Java and Swing.
+
+
 ------------------------------------------------------------------------------
 Western_Interactive_Map_Application v1.0
 ------------------------------------------------------------------------------
@@ -17,30 +20,35 @@ Third party libraries/dependencies
 
 These libraries/dependencies were used in our program:
 
-JDK19
-AbsoluteLayout-RELEASE170.jar
-json-simple-1.1.1.jar
-hamcrest-core-1.1.jar
-junit-4.10.jar
+- JDK19
+- AbsoluteLayout-RELEASE170.jar
+- json-simple-1.1.1.jar
+- hamcrest-core-1.1.jar
+- junit-4.10.jar
 
 All of these can be freely downloaded online. To install, following their respective installing instructions.
 ------------------------------------------------------------------------------
 Built-in account information
 
 To use the program as administrator,
+
 Account 1:
-Username: Sunny
-Password: abcd
+- Username: Sunny
+- Password: abcd
+
 Account 2:
-Username: admin
-Password: admin
+- Username: admin
+- Password: admin
 
 To use the program as guest,
+
 Account 1:
-Username: guest
-Password: guest
+- Username: guest
+- Password: guest
 
 Differences:
+
 In admin mode, you will be able to edit default POIs
+
 In guest mode, you are only able to delete/add custom POIs
 
